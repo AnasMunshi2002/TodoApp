@@ -8,7 +8,7 @@ class HiveHelper {
   void createInitialData() {
     taskList = [
       ['Sample Task', false],
-      ['Add a new Task', false],
+      ['Add a new Task', false]
     ];
   }
 

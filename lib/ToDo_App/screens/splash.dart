@@ -20,7 +20,7 @@ class SplashScreen extends StatelessWidget {
   }
 
   exitSplash(BuildContext context) {
-    Future.delayed(Duration(seconds: 4)).then(
+    Future.delayed(Duration(seconds: 5)).then(
       (value) {
         Navigator.pushReplacement(
             context,
